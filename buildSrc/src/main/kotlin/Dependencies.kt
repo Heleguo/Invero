@@ -25,8 +25,8 @@ fun Project.initSubProject(publish: Project.() -> Unit) {
     tasks.withType<JavaCompile> { options.encoding = "UTF-8" }
     @Suppress("DEPRECATION")
     configure<JavaPluginConvention> {
-        sourceCompatibility = JavaVersion.VERSION_1_8
-        targetCompatibility = JavaVersion.VERSION_1_8
+        sourceCompatibility = JavaVersion.VERSION_17
+        targetCompatibility = JavaVersion.VERSION_17
     }
 
     if (parent?.name != "plugin") {
