@@ -6,7 +6,7 @@ plugins {
 
 dependencies {
     compileTabooLib()
-    compileCore(11903)
+    compileCore(12001)
 
     rootProject
         .childProjects["project"]!!
