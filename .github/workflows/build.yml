@@ -33,4 +33,4 @@ jobs:
         if: success()
         with:
          name: Invero
-         path: ./*
+         path: ./plugin/platform-bukkit/build/libs
