@@ -9,7 +9,7 @@ repositories {
 
 dependencies {
     compileTabooLib()
-    compileCore(11903)
+    compileCore(12000)
     serialization()
     framework()
     compileLocal(project, "libs")
