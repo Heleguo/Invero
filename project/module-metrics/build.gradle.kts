@@ -1,6 +1,6 @@
 dependencies {
     compileTabooLib()
-    compileCore(11903)
+    compileCore(12000)
     framework()
 
     compileModule("module-common")
