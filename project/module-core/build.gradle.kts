@@ -5,7 +5,7 @@ plugins {
 dependencies {
     compileTabooLib()
     compileNMS()
-    compileCore(12000)
+    compileCore(12001)
     framework()
     serialization()
 
